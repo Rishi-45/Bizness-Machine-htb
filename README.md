@@ -3,24 +3,17 @@ Bizness machine walkthrough(hack the box)
 
 ## Usage 🚀
 
-1. Clone the repository:
+Run the script in scanner mode:
 
-    ```bash
-    git clone https://github.com/Rishi-45/Bizness-Machine-htb.git
-    cd Bizness-Machine-htb
-    ```
+```bash
+python3 exploit.py --url https://localhost:8443
+```
+
+Run command on the remote server:
+```bash
+python3 exploit.py --url https://localhost:8443 --cmd 'CMD'
+```
     
-2. Run the script:
-
-    ```bash
-    python3 Exploit.py --url 
-    ```
-    
-3. Install dependencies:
-
-    ```bash
-    pip install python3
-    ```
 
 
 
