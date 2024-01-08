@@ -17,7 +17,7 @@ python3 exploit.py --url https://localhost:8443 --cmd 'CMD'
 
 
 
-    Follow the on-screen prompts to enter the target email, attacker IP, and choose the action.
+
 
 ## This exploit script and PoC are written for an in-depth CVE analysis on [vsociety](https://www.vicarius.io/vsociety/).
 ## The repo also contains [ysoserial](https://github.com/frohoff/ysoserial) release used to generate serialized data.
