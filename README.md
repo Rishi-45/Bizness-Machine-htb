@@ -1,22 +1,32 @@
-# Bizness-Machine-htb
+# Bizness-Machine-htb (CVE-2023-51467 and CVE-2023-49070)
 Bizness machine walkthrough(hack the box)
 
+## Usage 🚀
 
-Clone the repository:
+1. Clone the repository:
 
-'''
-git clone https://github.com/Pushkarup/CVE-2023-23397.git
-cd CVE-2023-23397
-'''
+    ```bash
+    git clone https://github.com/Rishi-45/Bizness-Machine-htb.git
+    cd Bizness-Machine-htb
+    ```
+    
+2. Run the script:
 
-Install dependencies:
+    ```bash
+    python3 Exploit.py --url 
+    ```
+    
+3. Install dependencies:
 
-pip install pywin32
+    ```bash
+    pip install python3
+    ```
 
-or
 
-pip install -r requirements.txt
-Run the script:
 
-python Exploit.py
-Follow the on-screen prompts to enter the target email, attacker IP, and choose the action.
+    Follow the on-screen prompts to enter the target email, attacker IP, and choose the action.
+
+## This exploit script and PoC are written for an in-depth CVE analysis on [vsociety](https://www.vicarius.io/vsociety/).
+## The repo also contains [ysoserial](https://github.com/frohoff/ysoserial) release used to generate serialized data.
+
+
